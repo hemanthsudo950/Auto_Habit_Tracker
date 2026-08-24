@@ -2,10 +2,6 @@
 
 A simple Flask + SQLite web app for tracking daily habits, with default morning/afternoon/night routines, custom habit creation, and time-based reminders (both server-side beeps and in-browser popup notifications).
 
-![Python](https://img.shields.io/badge/python-3.x-blue)
-![Flask](https://img.shields.io/badge/flask-web%20app-black)
-![SQLite](https://img.shields.io/badge/database-SQLite-lightgrey)
-
 ## Features
 
 - ✅ Add, complete, and delete habits
@@ -104,3 +100,7 @@ def play_alarm():
 | `/add` | POST | Add a new habit (`habit`, `time` form fields) |
 | `/complete/<id>` | POST | Mark a habit as completed |
 | `/delete/<id>` | POST | Delete a habit |
+
+## License
+
+No license added yet — to be decided later.
